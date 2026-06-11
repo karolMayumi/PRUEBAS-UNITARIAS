@@ -10,7 +10,7 @@
  Composer require --dev phpunit/phpunit
  ```
  Despues agregaremos un autoload PS_04 a composer.json,abrimos composer.json y agregamos el siguiente codigo:
- ```bash
+ ```php
  {
     "autoload": {
          "psr-4": { 
@@ -27,7 +27,7 @@
  **src/calculadora.php**
  **tests/calculadoraTest.php**
  Después realizamos nuestras Pruebas de suma,restar,multiplicar,dividir en la carpeta src/calculadora.php 
- ```bash
+ ```php
  <?php
 
 namespace App;
@@ -59,7 +59,7 @@ class Calculadora
 }
 ```
 Después hacemos nuestra codificación en **tests/calculadoraTest.php**
-```bash
+```php
 <?php
 
 namespace Tests;
@@ -116,7 +116,7 @@ D:\Vsemestre\PRUEBAS UNITARIAS\semana07>vendor\bin\phpunit tets
 ```
 AHORA CONTINUAREMOS CON LAS PRUEBAS DE LA SEMANA08 
 Dentro del codigo de la semana07 en la carpeta de **src/Calculadora.php** agregamos el siguiente codigo:
-```bash
+```php
 // NUEVAS FUNCIONES PARA LA SEMANA 08
     public function esPar($numero)
     {
@@ -140,7 +140,7 @@ Dentro del codigo de la semana07 en la carpeta de **src/Calculadora.php** agrega
 ```
 
 Después en la carpeta **tests/CalculadoraTest.php** continuamos en el mismo codigo de la semana07 con el siguiente codigo:
-```bash
+```php
 public function testEsPar()
     {
         $calc = new Calculadora();
@@ -174,7 +174,7 @@ public function testEsPar()
     }
 ```
 Ahora crearemos un archivo phpunit.xml en la raiz del proyecto la función principal es automatizar y ordenar la forma en que se ejecutan tus pruebas unitarias dentro del archivo ira el siguiente codigo:
-```bash
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php"
          colors="true"

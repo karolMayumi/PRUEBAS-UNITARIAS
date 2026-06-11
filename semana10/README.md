@@ -26,7 +26,7 @@ mkdir tests
 
 ### PASO 5:
 Una vez lista creado todas las carpetas que usaremos para ejecutar nuestras pruebas empezaremos con la configuracion en Composer.json con el siguiente codigo:
-```bash
+```php
 {
     "require-dev": {
         "phpunit/phpunit": "^13.2"
@@ -43,7 +43,7 @@ Composer dump-autoload
 ```
 ### PASO 6
 Crearemos la clase en src/Calculadora.php 
-```bash
+```php
 <?php
 
 namespace App;
@@ -76,7 +76,7 @@ class Calculadora
 ```
 ### Paso 7
 Crearemos la clase validador dentro de src/Validador.php
-```bash
+```php
 <?php
 
 namespace App;
@@ -101,7 +101,7 @@ class Validador
 ```
 ### Paso 8 
 Creare una prueba en tests/CalculadoraTest.php
-```bash
+```php
 <?php
 
 namespace Tests;
@@ -199,7 +199,7 @@ class CalculadoraTest extends TestCase
 ```
 ### Paso 9
 Ahora creamos la pruebas en tests/ValidadorTest.php
-```bash
+```php
 <?php
 
 namespace Tests;
@@ -257,7 +257,7 @@ class ValidadorTest extends TestCase
 ```
 ### Paso 10
 Creare un archivo de nombre phpunit.xml en la raiz de mi proyecto para que las pruebas salan de manera ordena.
-```bash
+```php
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php"
          colors="true"
