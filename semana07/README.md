@@ -1,6 +1,6 @@
 # EJERCICICO DE LA SEMANA 07 Y 08
 ## HECHO POR MAYUMI
- Primero para ejecutar nuesras pruebas crearemos dos carpetas de nombre (SRC y TESTS) con el siguiente codigo:
+ Primero para ejecutar nuesras pruebas crearemos dos carpetas dentro de la carpeta de la semana07 de nombre (SRC y TESTS) con el siguiente codigo:
  ```bash
  mkdir src
  mkdir tests
