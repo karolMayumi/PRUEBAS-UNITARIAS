@@ -4,7 +4,7 @@ para que funciones usar el siguiente comando
 
 composer install 
 
-Despues de instalar composer crearemos la carpeta de nuestro proyecto co el siguiente codigo:
+Despues de instalar Composer crearemos la carpeta de nuestro proyecto co el siguiente codigo:
 
 ```bash
 cd D: PRUEBAS UNITARIAS\
