@@ -21,8 +21,8 @@ mkdir src
 mkdir tests
 ```
 ### PASO 4:
-4.1 Dentro de la carpeta de src crearemos dos carpetas de extecion phpunit con los nombres: **Calculadora.php** y **Validador.php**
-4.2 Dentro de la carpeta de tests creamos tambien dos carpetas tambien con extencion phpunit de nombres: **CalculadoraTest.php** y **ValidadorTest.php**
+* **4.1** Dentro de la carpeta de src crearemos dos carpetas de extecion phpunit con los nombres: **Calculadora.php** y **Validador.php**
+* **4.2** Dentro de la carpeta de tests creamos tambien dos carpetas tambien con extencion phpunit de nombres: **CalculadoraTest.php** y **ValidadorTest.php**
 
 ### PASO 5:
 Una vez lista creado todas las carpetas que usaremos para ejecutar nuestras pruebas empezaremos con la configuracion en Composer.json con el siguiente codigo:
