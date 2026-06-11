@@ -1,6 +1,6 @@
 # EJERCICIOS DE SEMANA 10
 ## HECHO POR MAYUMI
-PASO 1:
+### PASO 1:
 Para hacer funiconar estas pruebas unitarias primero creare una carpeta dentro de mi carpeta principal(PRUEBAS UNITARIAS) con el siguiente codigo:
 ```bash
 mkdir semana10
@@ -9,22 +9,22 @@ Despues ingresaremos a la carpeta crea con el siguiente codigo
 ```bash
 cd semana10
 ```
-PASO 2:
+### PASO 2:
 Para poder ejecutar las prubas configuraremos phpunit con el siguiente codigo:
 ```bash
 composer require --dev phpunit/phpunit
 ```
-PASO 3:
+### PASO 3:
 Dentro de la carpeta de nombre semana10 creare dos carpetas con los siguientes nombres y con el siguiente codigo:
 ```bash
 mkdir src
 mkdir tests
 ```
-PASO 4:
+### PASO 4:
 4.1 Dentro de la carpeta de src crearemos dos carpetas de extecion phpunit con los nombres: **Calculadora.php** y **Validador.php**
 4.2 Dentro de la carpeta de tests creamos tambien dos carpetas tambien con extencion phpunit de nombres: **CalculadoraTest.php** y **ValidadorTest.php**
 
-PASO 5:
+### PASO 5:
 Una vez lista creado todas las carpetas que usaremos para ejecutar nuestras pruebas empezaremos con la configuracion en Composer.json con el siguiente codigo:
 ```bash
 {
@@ -41,7 +41,7 @@ Una vez lista creado todas las carpetas que usaremos para ejecutar nuestras prue
 ```
 Composer dump-autoload
 ```
-PASO 6
+### PASO 6
 Crearemos la clase en src/Calculadora.php 
 ```bash
 <?php
@@ -74,7 +74,7 @@ class Calculadora
     }
 }
 ```
-Paso 7
+### Paso 7
 Crearemos la clase validador dentro de src/Validador.php
 ```bash
 <?php
@@ -99,7 +99,7 @@ class Validador
     }
 }
 ```
-Paso 8 
+### Paso 8 
 Creare una prueba en tests/CalculadoraTest.php
 ```bash
 <?php
@@ -197,7 +197,7 @@ class CalculadoraTest extends TestCase
     }
 }
 ```
-Paso 9
+### Paso 9
 Ahora creamos la pruebas en tests/ValidadorTest.php
 ```bash
 <?php
@@ -255,7 +255,7 @@ class ValidadorTest extends TestCase
     }
 }
 ```
-Paso 10
+### Paso 10
 Creare un archivo de nombre phpunit.xml en la raiz de mi proyecto para que las pruebas salan de manera ordena.
 ```bash
 <?xml version="1.0" encoding="UTF-8"?>
@@ -269,7 +269,7 @@ Creare un archivo de nombre phpunit.xml en la raiz de mi proyecto para que las p
     </testsuites>
 </phpunit>
 ```
-PASO 11
+### PASO 11
 Ahora ejecutare la pruebas
 ```bash
 vendor\bin\phpunit tests
@@ -278,4 +278,4 @@ Y para ver todo mas ordenado
 ```bash
 vendor\bin\phpunit tests --testdox
 ```
-Y listo asi es comodeberia ejecutarse las pruebas de la semana 10 ¡GRACIAS!
+Y listo asi es como deberia ejecutarse las pruebas de la semana 10 ¡GRACIAS!
