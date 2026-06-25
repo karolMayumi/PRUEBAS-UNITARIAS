@@ -14,7 +14,7 @@ Para poder ejecutar las prubas configuraremos phpunit con el siguiente codigo:
 ```bash
 composer require --dev phpunit/phpunit
 ```
-### PASO 3:
+### PASO 3: 
 Dentro de la carpeta de nombre semana10 creare dos carpetas con los siguientes nombres y con el siguiente codigo:
 ```bash
 mkdir src
