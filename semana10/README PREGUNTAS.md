@@ -1,4 +1,4 @@
-# Preguntas de la semana09
+# Preguntas de la semana 10
 
 ## 1.-¿Qué ventajas tiene usar `dataProvider` frente a escribir pruebas individuales para cada caso?
 
@@ -8,7 +8,7 @@ El uso de `dataProvider` permite ejecutar una misma prueba con diferentes conjun
 
 ```php
 public function testSuma1()
-{
+{ 
     $this->assertEquals(3, 1 + 2);
 }
 
