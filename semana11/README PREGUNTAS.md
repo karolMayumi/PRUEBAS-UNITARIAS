@@ -7,7 +7,7 @@
 ## ¿Por qué es importante colocar expectException ANTES de ejecutar el código?
 En PHP, cuando ocurre una excepción (throw new ...), el flujo normal del programa se interrumpe inmediatamente.
 
-Si colocas el código que falla antes del expectException, PHP arrojará el error, detendrá el test por completo y PHPUnit nunca llegará a leer la línea donde le decías que lo estabas esperando. Al ponerlo antes, le avisas a PHPUnit: "Ojo, voy a ejecutar una línea que va a fallar; quédate listo para capturar ese error y ver si es el correcto".
+Si colocas el código que falla antes del expectException, PHP arrojará el error, detendrá el test por completo y PHPUnit nunca llegará a leer la línea donde le decías que lo estabas esperando.
 
 ## ¿Qué pasa si una función debe lanzar una excepción pero no lo hace?
 El test fallará automáticamente.
