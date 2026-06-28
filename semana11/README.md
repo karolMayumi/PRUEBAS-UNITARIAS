@@ -3,11 +3,11 @@
 ### PASO 1:
 Para hacer funiconar estas pruebas unitarias primero creare una carpeta dentro de mi carpeta principal(PRUEBAS UNITARIAS) con el siguiente codigo:
 ```bash
-mkdir semana10
+mkdir semana11
 ```
 Despues ingresaremos a la carpeta crea con el siguiente codigo
 ```bash
-cd semana10
+cd semana11
 ```
 ### PASO 2:
 Para poder ejecutar las prubas configuraremos phpunit con el siguiente codigo:
@@ -15,7 +15,7 @@ Para poder ejecutar las prubas configuraremos phpunit con el siguiente codigo:
 composer require --dev phpunit/phpunit
 ```
 ### PASO 3: 
-Dentro de la carpeta de nombre semana10 creare dos carpetas con los siguientes nombres y con el siguiente codigo:
+Dentro de la carpeta de nombre semana11 creare dos carpetas con los siguientes nombres y con el siguiente codigo:
 ```bash
 mkdir src
 mkdir tests
