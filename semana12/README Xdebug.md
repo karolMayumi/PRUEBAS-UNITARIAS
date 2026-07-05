@@ -24,11 +24,12 @@ si no existe la carpeta **ext** lo creamos y dentro de ella lo copeamos.
 ### PASO 6:
 Ahora pasaremos a Editar el **php.ini**
 Dentro de **php.ini** bucamos **zend_extension=opcache** y debajo de esa linea agregamos las siguientes lineas
-**zend_extension=xdebug
+
+zend_extension=xdebug
 
 xdebug.mode=coverage
 
-xdebug.start_with_request=yes** 
+xdebug.start_with_request=yes
 ### PASO 7:
 Configuraremos en **phpunit.xml** la parte donde sera hara la seccion de cobertura
 ```php
