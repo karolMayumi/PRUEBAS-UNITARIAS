@@ -20,15 +20,15 @@ Sale un resultado ese resultado lo copeamos y pegamos en la página de Xdebug Wi
 ### PASO 5:
 Una vez descarga el archivo voy a copear a la siguiente carpeta
 ``C:\Users\USER\.config\herd\bin\php84\ext``
-si no existe la carpeta *ext* lo creamos y dentro de ella lo copeamos.
+si no existe la carpeta **ext** lo creamos y dentro de ella lo copeamos.
 ### PASO 6:
-Ahora pasaremos a Editar el *php.ini*
-Dentro de *php.ini* bucamos *zend_extension=opcache* y debajo de esa linea agregamos las siguientes lineas
-*zend_extension=xdebug
+Ahora pasaremos a Editar el **php.ini**
+Dentro de **php.ini** bucamos **zend_extension=opcache** y debajo de esa linea agregamos las siguientes lineas
+**zend_extension=xdebug
 xdebug.mode=coverage
-xdebug.start_with_request=yes* 
+xdebug.start_with_request=yes** 
 ### PASO 7:
-Configuraremos en *phpunit.xml* la parte donde sera hara la seccion de cobertura
+Configuraremos en **phpunit.xml** la parte donde sera hara la seccion de cobertura
 ```php
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php"
